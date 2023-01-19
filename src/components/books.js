@@ -7,7 +7,7 @@ function Books(props) {
       {props.books.map((book) => {
         return (
         <div key={book.id}>
-          <p>hfsejfbj</p>
+          <p>BOOK No:{book.id}</p>
         <h2>Title: {book.title}</h2>
         <h2>Content: {book.body}</h2>
     </div>
